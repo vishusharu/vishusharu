@@ -1,0 +1,15 @@
+import java.util.*;
+import java.io.*;
+public class HelloWorld{
+
+     public static void main(String []args){
+     double area=3.14;
+          double r=4,k;
+          
+          k=area*r*r;
+          
+          
+      
+        System.out.println(k);
+     }
+}
