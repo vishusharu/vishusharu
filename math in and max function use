@@ -1,0 +1,18 @@
+import java.util.*;
+import java.io.*;
+public class HelloWorld{
+
+     public static void main(String []args){
+     int a=2,b=4,k,A;
+     //int c;
+    k= Math.max(a,b);
+    A=Math.min(a,b);
+    //B=math.avarge(a,b);
+    //C=math.add(a,b);
+        System.out.println("the given no. is maximum");
+    System.out.println(k);
+    
+     System.out.println("the given no. is minimum");
+        System.out.println(A);
+     }
+}
