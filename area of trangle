@@ -1,0 +1,13 @@
+import java.util.*;
+import java.io.*;
+public class HelloWorld{
+
+     public static void main(String []args){
+     double length=2;
+          double breadth=9,k;
+          
+          k=0.5*length*breadth;
+         
+         System.out.println(k);
+     }
+}
