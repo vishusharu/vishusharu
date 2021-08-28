@@ -1,0 +1,22 @@
+import java.util.*;
+import java.io.*;
+public class HelloWorld{
+
+     public static void main(String []args){
+    int a=10;
+    
+ if(a>10)
+{
+    System.out.println("big");
+     }
+     else if (a<10)
+     {
+     System.out.println("small");
+    
+     }
+    else  if(a==10)
+    {
+         System.out.println("same aahe bhaava nko kalji kru");
+    }
+}  
+}
