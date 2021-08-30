@@ -1,0 +1,25 @@
+package student;
+import java.lang.*;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		// declration
+int a=50;
+float b=49;
+
+//convert disgits
+System.out.printf("%d\n",a);
+//convert octal
+System.out.printf("%o\n",a);
+//convert hexadecimal
+System.out.printf("%x\n",a);
+//convert flOAT
+System.out.printf("%f\n",b);
+
+	
+	
+	
+	}
+
+}
