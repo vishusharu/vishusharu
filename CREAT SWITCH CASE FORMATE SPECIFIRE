@@ -1,0 +1,94 @@
+package abc;
+import java.util.Scanner;
+public class colorcode {
+	int bin(int i) {
+		 Math.ma
+	}
+	
+
+	public static void main(String[] args) {
+		
+       Scanner sc=new Scanner(System.in);
+       int num=0;
+       System.out.println("1- decimal no:\n"+
+       "2 - octal no:\n"+
+       "3 - hexadecimal numbers:\n"+
+       "4 -float value:\n"+
+       "5 - no formmate specifire\n"+
+       "7 - no specifer \n"+
+       "8 - exit\n");
+      
+       do {
+    	   System.out.println("enter your choice:");       
+            num=sc.nextInt();
+       switch(num){
+    	   case 1:
+    		   System.out.printf("enter the decimal value");
+             int a=sc.nextInt();
+    		   System.out.printf("decimal number%d\n",a);
+               break;
+    	   case 2:
+    		   System.out.printf("enter the octal value");
+    		   int b=sc.nextInt();
+    		   System.out.printf("octal no %o\n",b );
+    		   break;
+    	   case 3:
+    		   System.out.printf(" enter the hexadecimal value ");
+    		   int c=sc.nextInt();
+    		   System.out.printf("hexadecimal no.%x\n",c);
+    		   break;
+    	case 4:
+    		 System.out.printf("enter the float value");
+    		double d=sc.nextDouble();
+    		   System.out.printf("%f\n",d);
+    		   break;
+    	   case 5:
+    		   System.out.println("formate specifire end");
+    		   break;
+    	   case 6:
+    		   System.out.println("formate specifire end");
+                break;
+    	   case 7:
+    		    System.exit(0) ;                 
+       default :
+    	   System.out.println("enter correct choice");
+              break;
+       
+       
+       }
+       }while(num!=7);
+	}
+	}
+
+
+output
+1- decimal no:
+2 - octal no:
+3 - hexadecimal numbers:
+4 -float value:
+5 - no formmate specifire
+7 - no specifer 
+8 - exit
+
+enter your choice:
+1
+enter the decimal value212
+decimal number212
+enter your choice:
+1
+enter the decimal value21
+decimal number21
+enter your choice:
+2
+enter the octal value8
+octal no 10
+enter your choice:
+4
+enter the float value4.4
+4.400000
+enter your choice:
+4
+enter the float value4
+4.000000
+enter your choice:
+
