@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class Stringpro {
+
+	private static String c;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		 int	  inputs;     
+		 System.out.println("1=display the length of string\n"+
+	                          "2=convert the string in lowercase formate\n"+
+	    		              "3=find substring in given substring\n"+
+	                          "4=display  given string reverse\n"+
+	    		              "5=the given string display  reverse formate string\n"+
+	                          "6=both string same or not\n") ;
+	      
+	       
+	       System.out.println("enter your choice...");
+	        String name = sc.nextLine();
+	    switch (inputs)
+	    {
+	    case 1 :
+	    	   String a = sc.nextLine();	
+	    	 
+	    	   System.out.println(a.length());
+	    	   break;
+	    case 2:
+	    	 String B = sc.nextLine();
+	    	
+             System.out.println( b.toLowerCase());
+             break;
+	    case 3:
+	    	 String c = sc.nextLine();	
+	    	 c.	substring(sc.nextInt());
+	    	 System.out.println(c);
+	    	 break;
+	    case 4:
+	    	  String d = sc.nextLine();	
+	                int i;
+	                for(i=d.length();i>=0;i++)
+	                	System.out.println(charAt(i));
+	                	
+	    	  break;
+	   
+	    
+	    }
+	
+	
+	}
+
+	private static char[] charAt(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
