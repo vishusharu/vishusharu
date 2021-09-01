@@ -1,0 +1,73 @@
+package sangola;
+
+import java.util.Scanner;
+public class vp {
+	int bin(int i) {
+		 Math.ma
+	}
+	
+
+	public static void main(String[] args) {
+		
+       Scanner sc=new Scanner(System.in);
+       int num=0;
+       System.out.println("1=delete\n"+"2=deletecharAt\n"+"3=insert\n+"
+       		+ "4=upend\n"+"5=reverse\n"+"6=replace");
+      
+       do {
+    	   System.out.println("enter your choice:");       
+            num=sc.nextInt();
+       switch(num){
+    	   case 1:
+    		   System.out.printf("delate method activate....\n");
+             //int a=sc.nextInt();
+
+    		     
+    		  StringBuffer b = new StringBuffer("Java lang package\n");
+    		  System.out.printf("Input: " + b);
+    		   System.out.print("output="+b.delete(9,9));
+               break;
+    	   case 2:
+    		   System.out.printf("delate charmethod activate....\n");
+    		   
+ 		      StringBuffer c = new StringBuffer("Java lang package\n");
+ 		     System.out.printf("Input: " + c);
+ 		      System.out.print("output="+c.deleteCharAt(6));
+    		   
+    	   case 3:
+    		   char c1=0;
+    		   System.out.printf("insert method activated......\n ");
+    		   StringBuffer a = new StringBuffer("Java lang package\n");
+    		   System.out.printf("Input: " + a);
+    		   System.out.print("output="+a.insert(7,c1));
+    		   break;
+    		   
+    	case 4:
+    		 System.out.printf("upend method activated.......\n");
+    		 StringBuffer a2 = new StringBuffer("Java lang package\n");
+    		 System.out.printf("Input: " + a2);
+    		 System.out.print( "output="+a2.append(true));
+    		   break;
+    	   case 5:
+    		   System.out.printf("revers method activated.......\n");
+    		   StringBuffer a3 = new StringBuffer("Java lang package\n");
+    		   System.out.printf("Input: " + a3);
+    		   System.out.println("output="+a3.reverse());
+    		   break;
+    	 /*  case 6:
+    		   System.out.printf("replace method activated.......\n");
+      		 StringBuffer a4 = new StringBuffer("Java lang package\n");
+      		 System.out.printf("Input: " + a4);
+      		 System.out.print("output="+ a4.replace('a','e', null));
+                break;*/
+    	   case 7:
+    		    System.exit(0) ;                 
+       default :
+    	   System.out.println("\n enter correct choice\n");
+              break;
+       
+       
+       }
+       }while(num!=7);
+	}
+	}
