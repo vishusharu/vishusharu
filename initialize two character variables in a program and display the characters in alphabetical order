@@ -1,0 +1,58 @@
+package pbl;
+
+import java.util.Scanner;
+
+class Cheak1
+
+{
+
+   private static Object item1;
+private static Object item2;
+
+public static void main (String[] args)  
+
+   {
+	   System.out.println("enter the value");
+do {
+	   Scanner sc =new Scanner (System.in);
+char item1 = sc.next().charAt(0);   
+char item2 = sc.next().charAt(0);   
+
+
+       if (item1>=item2)
+
+           System.out.println(item2+" , "+item1);
+
+       
+
+       else
+
+           System.out.println(item1+" , "+item2);
+}while(item1==item2);
+   }
+
+   }
+
+
+
+output
+
+enter the value
+a
+s
+a , s
+d
+f
+d , f
+g
+h
+g , h
+j
+k
+j , k
+l
+l
+l , l
+h
+g
+g , h
